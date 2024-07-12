@@ -1,0 +1,40 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated-title, .animated-element, .animated-image {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated-title {
+  animation-name: fadeInUp;
+}
+
+.animated-element {
+  animation-name: fadeInUp;
+}
+
+.animated-image {
+  animation-name: fadeIn;
+}
+
+
+  
+  

@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="../assets/css/animations/navbar.css">
   <link rel="stylesheet" href="../assets/css/animations/images.css">
   <link rel="stylesheet" href="../assets/css/video/video.css">
+  <link rel="stylesheet" href="../assets/css/banner.css">
   <meta name="theme-color" content="#ffffff">
   <script src="../vendors/overlayscrollbars/OverlayScrollbars.min.js"></script>
 
@@ -108,13 +109,13 @@
   <!-- ============================================-->
   <!-- <section> begin ============================-->
   <section>
-
     <div class="bg-holder overlay"
-      style="background-image:url(../assets/img/cooproagrig/Banana-tree-plantation-2039300\ \(1\).jpg);background-position:center bottom;">
+      style="background-image:url(../assets/img/cooproagrig/banner-about.webp); background-size: cover; background-position: center center;">
+      <!-- Overlay to darken the image -->
+      <div class="overlay"></div>
     </div>
     <!--/.bg-holder-->
-
-    <div class="container">
+    <div class="container position-relative" style="z-index: 2;">
       <div class="row pt-6" data-inertia='{"weight":1.5}'>
         <div class="col-md-8 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
           <div class="overflow-hidden">
@@ -130,7 +131,6 @@
       </div>
     </div>
     <!-- end of .container-->
-
   </section>
 
   <!-- <section> close ============================-->
@@ -162,7 +162,7 @@
           <div class="col-lg-4 py-3 py-lg-0 position-relative animated-image-container"
             style="min-height:400px; background-position: top">
             <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0 animated-image-sections"
-              style="background-image:url('../assets/img/cooproagrig/12.jpg');">
+              style="background-image:url('../assets/img/cooproagrig/IMG_9.webp');">
               <!--/.bg-holder-->
             </div>
           </div>
@@ -258,9 +258,6 @@
   <script src="../vendors/gsap/customEase.js"></script>
   <script src="../assets/js/theme.js"></script>
   <script src="../assets/js/about.js"></script>
-
-
-
 </body>
 
 </html>
